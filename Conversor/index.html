@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversores</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>Conversores</h1>
+        <p>Vamos utilziar js para fazer varios tipos de conversores</p>
+    </header>
+    <main>
+        <article>
+
+            <h2>Conversor de Comprimento</h2>
+
+            <input type="number" id="valor_comprimento_2"><br>
+            <select id="comprimentos_1">
+                <option value="centimetro">Centimetro</option>
+                <option value="metro">Metro</option>
+                <option value="kilometro">Kilometro</option>
+                <option value="milha" selected>Milha</option>
+              </select><br>
+        
+            <button onclick="converteValor()">Converter</button><br>
+
+            <select id="comprimentos_2">
+                <option value="centimetro">Centimetro</option>
+                <option value="metro">Metro</option>
+                <option value="kilometro">Kilometro</option>
+                <option value="milha" selected>Milha</option>
+              </select>
+            
+            <p id="conversao"></p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Criado por Felipe Alves</p>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

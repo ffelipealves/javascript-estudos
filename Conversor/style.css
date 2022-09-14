@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: khaki;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+}
+
+main{
+    margin: auto;
+    padding: 250px;
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+
+article{
+    text-align: center;
+    margin: auto;
+    background-color: blanchedalmond;
+    padding: 5px;
+    width: 300px;
+    height: 150px;
+    
+}
+
+article > p,h1,input,select{
+    margin: 5px;
+    padding: 1px;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+    color: whitesmoke;
+    background-color: black;
+}
