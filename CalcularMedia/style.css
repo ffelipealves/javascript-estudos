@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    margin: auto;
+    text-align: center;
+}
+
+main > button{
+    color: black;
+}
+
+main > input{
+    color: black;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: purple;
+    font-weight: bold;
+}
