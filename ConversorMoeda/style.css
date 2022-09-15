@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(images/dinheiro-icone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(65, 165, 65);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+main{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+main > p,input,div{
+    margin: 3px;
+}
+
+main>div{
+    margin: auto;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 5%;
+    max-width: 400px;
+}
+
+h2{
+    margin: auto;
+    margin-bottom: 3px;
+    color: white;
+    background-color: black;
+    border-radius: 5%;
+    max-width: 400px;
+    
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5%;
+}
