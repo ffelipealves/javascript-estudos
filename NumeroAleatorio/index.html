@@ -11,17 +11,30 @@
     <header>
         <h1>Tente advinhar o numero que sonic esta pensando</h1>
     </header>
-    <main>
 
-        <img src="imagens/balao (1).png" alt="">
-        <input type="number" placeholder="Digite um numero" id="chute">
-        <button onclick=advinhaNumero()>Advinhe</button><br>
-        <p id="resposta"></p>
-        <img src="imagens/9accfbf49beb208de1db6efdc7ad2c2f.png" alt="">
+    <div id="telainicial">
+        <button type="button" onclick="window.location.reload()" id="resetar">Resetar</button>
+        <button onclick="iniciaJogo()" id="iniciar">INICIAR</button>
         
-        <script src="script.js"></script>
+    </div>
+
+    <main id="telaprincipal">
+
+        <p id="tentativas"></p>
+        <input type="number" placeholder="Digite um numero" id="chute">
+        <button onclick=chutaNumero() id="botao_chute">Advinhe</button>
+        
+        <p id="resposta"></p>
+
         
           
     </main>
+    <div id="sonic">
+        <img src="imagens/Sonic-Novo-Sonic-20-PNG.png" alt="" srcset="">
+        
+    </div>
+    
+
+    <script src="script.js"></script> 
 </body>
 </html>

@@ -17,10 +17,34 @@ header{
 }
 
 img{
-    display: block;
+    display: inline;
 }
 
 main{
+    display: none;
     text-align: center;
     font-size: 2em;
+    
+}
+
+main > p{
+    color: red;
+    
+}
+
+div#balao{
+    display: inline; 
+}
+div#sonic{
+    display: inline;
+}
+
+div#telainicial{
+    text-align: center;
+}
+
+div#telainicial> button{
+    margin: auto;
+    margin-top: 10px;
+    font-size: 50px;
 }
