@@ -1,2 +1,2 @@
-# javascript-fundamentos
-Primeiros estudos sobe a linguagem Javascript
+# javascript-estudos
+Estudos sobre a linguagem Javascript
